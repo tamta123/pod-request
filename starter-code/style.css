@@ -202,7 +202,7 @@ input[type="submit"]:hover {
 
   input[type="e-mail"] {
     width: 100%;
-    padding: 0;
+    padding-left: 5px;
     background: #2c344b;
     border-style: none;
     border-radius: 28px;
@@ -223,4 +223,47 @@ input[type="submit"]:hover {
 }
 
 @media screen and (min-width: 1440px) {
+  body {
+    background-image: url("./assets/desktop/image-host.jpg");
+    background-size: 962px 640px;
+    background-color: #121725;
+    background-position: top 130px right -14px;
+  }
+  header {
+    margin-left: 154px;
+    margin-top: 102px;
+    justify-content: flex-start;
+    padding: 0;
+    height: 56px;
+  }
+
+  .podcast {
+    margin-top: 157px;
+    background-color: #121725;
+    width: 50%;
+    padding: 0;
+    margin: 103px 552px 0px 165px;
+    /* padding-bottom: 153px; */
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+  }
+  p {
+    width: 75%;
+  }
+
+  body > img {
+    display: block;
+    /* margin-top: 718px;
+    margin-left: 1208px; */
+    margin-top: -70px;
+    margin-bottom: 78px;
+    margin-left: auto;
+    width: 232px;
+    height: 104px;
+  }
 }
