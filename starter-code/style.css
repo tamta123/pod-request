@@ -188,8 +188,21 @@ input[type="submit"]:hover {
     flex-direction: row;
     width: 75%;
     padding-left: 32px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #2c344b;
+    border-style: none;
+    border-radius: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+  }
+
+  input[type="e-mail"] {
+    width: 100%;
+    padding: 0;
     background: #2c344b;
     border-style: none;
     border-radius: 28px;
@@ -202,6 +215,10 @@ input[type="submit"]:hover {
   input[type="submit"] {
     width: 33%;
     padding: 9px 27px;
+    margin-right: 2px;
+  }
+  .container > span {
+    margin-left: 32px;
   }
 }
 
