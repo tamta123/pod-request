@@ -210,6 +210,7 @@ input[type="submit"]:hover {
     line-height: 28px;
     color: #ffffff;
     mix-blend-mode: normal;
+    outline: none;
   }
   input[type="submit"] {
     width: 33%;
